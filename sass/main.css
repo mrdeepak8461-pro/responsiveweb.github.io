@@ -1,0 +1,381 @@
+.dropdown-content,
+.select-dropdown {
+  font-family: "BT Mono bold" !important;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: auto;
+  background-image: url("../img/obj1.png");
+  background-position: 30rem -4rem;
+  background-repeat: no-repeat;
+}
+
+header nav {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+header nav .container .material-icons {
+  color: black;
+}
+
+header nav .container ul .btn {
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  background-color: #5b73e5;
+}
+
+header nav .container li a {
+  color: black;
+}
+
+header nav .sidenav .btn {
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  background-color: #5b73e5;
+}
+
+header .header_main .col {
+  padding-top: 200px;
+}
+
+header .header_main .text1 {
+  background-image: url("../img/obj2.png");
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-position: 12rem 5rem;
+  text-align: right;
+}
+
+header .header_main .text1 a {
+  background-color: #f6f6f6;
+  color: black;
+  border-radius: 10px;
+}
+
+header .header_main .text1 h1 {
+  font-weight: bold;
+}
+
+header .header_main .text1 h1 span {
+  color: #5b73e5;
+}
+
+header .header_main img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+header .header_footer {
+  background-image: -webkit-gradient(linear, left top, right top, from(#5b73e5), to(#2980b9));
+  background-image: linear-gradient(to right, #5b73e5, #2980b9);
+}
+
+header .header_footer h4 {
+  font-weight: bold;
+  padding: 40px 0px;
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  header .header_main .col {
+    padding-top: 10px;
+  }
+  header .header_main .text1 {
+    width: auto;
+  }
+  header .header_main .text1 h1 {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+  }
+  header .header_main .text1 a {
+    display: block;
+    margin: auto;
+    width: 44%;
+  }
+  header .header_footer {
+    padding: 10px;
+  }
+}
+
+.going_for_somthing {
+  padding-top: 6rem;
+}
+
+.going_for_somthing .container {
+  padding: 10px;
+}
+
+.going_for_somthing .container h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.going_for_somthing .container h1 {
+  font-weight: bold;
+}
+
+.going_for_somthing .container h1::after {
+  content: "productivity";
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.going_for_somthing .container img {
+  display: block;
+  margin: 100px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .going_for_somthing {
+    padding-top: 1rem;
+  }
+  .going_for_somthing h4 {
+    font-size: 2rem;
+  }
+}
+
+.introducing .l5 {
+  background-image: url("/img/bg1.png");
+  background-size: 100% 100%;
+  height: 400px;
+  padding: 50px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introducing h2 {
+  font-weight: 600;
+  font-size: 2.7rem;
+  margin-top: 100px;
+}
+
+.introducing .btn {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+.introducing .btn:hover {
+  background-color: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .introducing .l5 {
+    padding: 60px;
+    text-align: center;
+  }
+  .introducing h2 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+}
+
+.happiness {
+  margin-top: 100px;
+}
+
+.happiness h2 {
+  font-weight: 600;
+  font-size: 2.7rem;
+}
+
+.happiness p {
+  margin-bottom: 30px;
+}
+
+.happiness a {
+  color: black;
+}
+
+.happiness .main_i {
+  width: 40px;
+  padding-right: 20px;
+  color: #5b73e5;
+  margin: 0px 10px 10px 0px;
+}
+
+.happiness .btn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#5b73e5), to(rgba(41, 128, 185, 0.8)));
+  background-image: linear-gradient(to right, #5b73e5, rgba(41, 128, 185, 0.8));
+  color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.happiness .btn i {
+  color: white;
+}
+
+.happiness img {
+  margin: 50px auto;
+}
+
+.feedback {
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feedback h4 {
+  font-weight: bold;
+}
+
+.feedback p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feedback .col {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.feedback .col h6 {
+  font-weight: bold;
+}
+
+.feedback .col img {
+  display: block;
+  margin: auto;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.quotes h1 {
+  font-weight: bold;
+}
+
+.quotes .card {
+  padding: 15px;
+  opacity: 0.6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.quotes .card p {
+  font-size: 0.8rem;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.quotes .card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 90px;
+}
+
+.quotes .card h6 {
+  font-weight: bold;
+}
+
+.quotes .card:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 1px 4px 46px -2px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 4px 46px -2px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+  .quotes .card {
+    opacity: 1;
+  }
+  .quotes h1 {
+    font-size: 2.5rem;
+  }
+}
+
+footer {
+  background-image: url("/img/footer-1024x307.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-top: 8rem;
+  background-size: 100% 50%;
+  border: 1px solid transparent;
+}
+
+footer .footer_header {
+  padding: 30px 0px;
+  background-color: white;
+}
+
+footer .footer_header h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .footer_header .con {
+  width: 90%;
+  margin: 60px auto;
+}
+
+footer .footer_header .con p {
+  margin: 25px 0px;
+}
+
+footer .footer_header .con h6 {
+  font-weight: bold;
+}
+
+footer .footer_fot {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+footer .footer_fot .col a {
+  margin-right: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_header h1 {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
